@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	
+	<title>RamuKaka.....your personal assistant</title>
+
+	<!-- Bootstrap itself -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="css/bookmystyles.css">
+
+	<!-- Fonts -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
+
+<nav class="mainmenu">
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Get in touch</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- Main (Home) section -->
+<section class="section" id="home">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
+
+				<!-- Site Title, your name, HELLO msg, etc. -->
+				<h1 class="title">RamuKaka</h1>
+				<h2 class="subtitle">....coming soon to your doorstep</h2>
+
+				<!-- Short introductory (optional) -->
+				<h3 class="tagline">
+					Dry cleaning, laundry, courier, restaurant delivery, home and car repair and more services at your doorstep with just one click.<br>
+                    Stay tuned for updates...
+				</h3>
+				
+				<a href="#services" class="btn taglink">
+					<h3 class="tagline">
+						See what we offer.
+					</h3>
+				</a>
+				
+
+                <div class="intro-subscribe subscribe-step1">
+                    <form id="subscribe-form" method="POST">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input class="form-control" name="email" type="text" placeholder="E-mail address"                                                       spellcheck="false">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-3">
+                                <input class="form-control" name="zipcode" type="text" placeholder="PinCode" spellcheck="false">
+                            </div>
+                            <div class="col-sm-4">
+                                <input class="form-control submit" type="submit" value="SUBSCRIBE ME"</input>
+                            </div>    
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="intro-subscribe subscribe-step2 col-sm-6 col-sm-offset-3" hidden>
+                    <h3>Thanks for subscribing.<br>We will keep you updated.
+                    </h3>
+                    <div class="intro-share">
+                        <h4>Share with your friends to get introductory deals.</h4>
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <a id="fblink" class="facebook" href>
+                                    <span>Share<span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intro-subscribe subscribe-step3 col-sm-6 col-sm-offset-3" hidden>
+                    <h3>Sorry!<br>We encountered some error.
+                    </h3>
+                </div>
+                
+                
+			</div> <!-- /col -->
+		</div> <!-- /row -->
+	
+	</div>
+</section>
+
+<!-- Second (About) section -->
+<section class="section" id="about">
+	<div class="container">
+	
+		<h2 class="text-center title">About Us</h2>
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">    
+				<h5 class="content"><strong>We have extraordinary experience in beauty and wellness services<br></strong></h5>
+				<p class="content">
+                    Come on, let’s face it! We all want to look and live beautiful all the time. 
+                    But with our busy lives, it seems to have taken a back seat. In the midst of our family and professional life, we                     forget to look after ourselves. <br><br>
+ 
+                    BookMyStyles tries to solve this problem and make all beauty and wellness services available at your own                               convenience at your doorstep. <br><br>
+ 
+                    We offer personal care and self-preservation services, much before salons open and much after they’ve called it a                     day. Because we believe flexibility is important. <br><br>
+ 
+                    Salon services, in the comfort of your own home, at your time and at your convenience. So whether you work late or                     have a baby that naps for just an hour, whether you have maid timings to live with or just lazy to step out –                         BookMyStyles is expecting you! <br><br>
+ 
+                    Call the salon to your home and indulge in the luxuries of being pampered without traffic signals, pollution or                       long waiting queues. <br>
+                </p>    
+			</div>
+		</div>
+                            
+        <h2 class="text-center">Contact us: bookmystyles@gmail.com</h2>
+
+	</div>
+</section>
+
+<!-- Third (Works) section -->
+<section class="section" id="services">
+	<div class="container">
+	
+		<h2 class="text-center title">Services</h2>
+		<p class="lead text-center content">
+			High quality services guaranteed!
+		</p>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset">
+				<a href="/services">
+					<div class="thumbnail package">
+						<div class="caption">
+							<h3>Package shipping</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="/services">
+					<div class="thumbnail grocery">
+						<div class="caption">
+							<h3>Grocery and pharmacy delivery</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="/services">
+					<div class="thumbnail restaurant">
+						<div class="caption">
+							<h3>Restaurants Delivery</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-3 col-sm-offset">
+				<a href="/services">
+					<div class="thumbnail laundry">
+						<div class="caption">
+							<h3>Laundry and Dry Cleaning</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="/services">
+					<div class="thumbnail home">
+						<div class="caption">
+							<h3>Home repair</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="/services">
+					<div class="thumbnail car">
+						<div class="caption">
+							<h3>Car wash and repair</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Fourth (Contact) section -->
+<section class="section" id="contact">
+	<div class="container">
+	
+		<h2 class="text-center title">Get in touch</h2>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-center content">
+				<p class="lead">Have a question about our services, or want to suggest something?</p>
+				<p>Feel free to email us, or drop us a message on Facebook!</p>
+				<p><b>bookmystyles@gmail.com</b><br><br></p>
+				<ul class="list-inline list-social">
+					<li><a href="https://www.facebook.com/bookmystyles" class="btn btn-link"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<!-- Load js libs only when the page is loaded. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bookmystyles.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#subscribe-form').submit(function() {
+            $.ajax({
+                url: '/subscribe',
+                type: 'POST',
+                data: $('#subscribe-form').serialize(),
+                success: function() {
+                    $('.subscribe-step1').hide();
+                    $('.subscribe-step2').show();
+                    $('.subscribe-step3').hide();
+                },
+                error: function() {
+                    $('.subscribe-step1').hide();
+                    $('.subscribe-step2').hide();
+                    $('.subscribe-step3').show();
+                }
+            });
+            return false;
+        });
+    });
+</script>
+
+</body>
+</html>
