@@ -10,7 +10,7 @@ app.configure(function () {
     app.set('views', __dirname + '/views');
     app.set('view engine', 'ejs');
     app.use(express.bodyParser());
-    //app.use(express.favicon(__dirname + '/public/img/favicon.png'));
+    app.use(express.favicon(__dirname + '/public/img/favicon.png'));
     //app.use(express.cookieParser());
     app.use(express.static(__dirname + '/public'));
 });
@@ -20,8 +20,6 @@ app.set('view options', {
 });
 
 app.get('/', routes.getIndex);
-
-app.get('/services', routes.getServices);
 
 app.post('/subscribe', routes.subscribeUser);
 

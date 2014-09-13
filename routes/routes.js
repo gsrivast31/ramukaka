@@ -7,10 +7,6 @@ module.exports = {
     res.render('index');
   },
 
-  getServices: function(req, res) {
-    res.render('service');
-  },
-  
   subscribeUser: function(req, res) {
     mc.lists.subscribe({
 	    id:'f9fd81fd82', 
