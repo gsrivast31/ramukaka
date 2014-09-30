@@ -1,6 +1,7 @@
 var mcapi = require('../node_modules/mailchimp-api/mailchimp');
 
-var mc = new mcapi.Mailchimp('53b703bd208115173012aba8271f64a3-us8');
+var API_KEY = "*";
+var mc = new mcapi.Mailchimp(API_KEY);
 
 module.exports = {
   getIndex: function(req, res) {
